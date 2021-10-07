@@ -2,13 +2,13 @@
   "name": "language-cloudberry-log",
   "main": "./lib/language-cloudberry-log",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "CloudBery Log highlights for Atom. Make sure to use One Dark syntax theme.",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "language-cloudberry-log:toggle"
   },
-  "repository": "https://github.com/atom/language-cloudberry-log",
+  "repository": "https://github.com/Michaelomeister/language-cloudberry-log",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
