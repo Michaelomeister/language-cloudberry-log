@@ -15,6 +15,17 @@ fileTypes: [ # An array of file extensions.
   '7'
   '8'
   '9'
+  '10'
+  '11'
+  '12'
+  '13'
+  '14'
+  '15'
+  '16'
+  '17'
+  '18'
+  '19'
+  '20'
 ]
 firstLineMatch: '' # A regular expression that is matched against the first line of the document when Atom is trying to decide if the grammar is appropriate. Useful for shell scripts, mostly.
 foldingStartMarker: '' # A regular expression that checks for the start of a foldable area (such as `{`).

@@ -2,4 +2,4 @@
 
 CloudBery Log highlights for Atom. Make sure to use One Dark syntax theme.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A screenshot of your package](https://user-images.githubusercontent.com/63930843/136357579-9778bede-6389-4323-a7ca-a7be6c064fac.png)
