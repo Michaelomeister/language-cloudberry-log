@@ -1,10 +1,9 @@
 {
   "name": "language-cloudberry-log",
   "main": "./lib/language-cloudberry-log",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "CloudBery Log highlights for Atom. Make sure to use One Dark syntax theme.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "language-cloudberry-log:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
