@@ -1,0 +1,53 @@
+# TextMate tutorial: http://manual.macromates.com/en/language_grammars
+
+# Regex to convert keys to unquoted: '(include|match|captures|begin|end|beginCaptures|endCaptures|name|patterns|0|1|2|3|4|5|6|7|8|9|comment|fileTypes|scopeName|repository|contentName|firstLineMatch|foldingStartMarker|foldingStopMarker)':
+
+scopeName: 'source.cloudberry-log' # <scope> should be a short, unique indicator for the language ("js", "php", "c", etc.)
+name: 'CloudBerry Log' # The title that will show up in grammar selection and on your status bar.
+fileTypes: [ # An array of file extensions.
+  'log'
+  '1'
+  '2'
+  '3'
+  '4'
+  '5'
+  '6'
+  '7'
+  '8'
+  '9'
+]
+firstLineMatch: '' # A regular expression that is matched against the first line of the document when Atom is trying to decide if the grammar is appropriate. Useful for shell scripts, mostly.
+foldingStartMarker: '' # A regular expression that checks for the start of a foldable area (such as `{`).
+foldingStopMarker: '' # A regular expression that checks for the end of a foldable area (such as `}`). If both folding markers are matched in the same line, there will be no foldable area.
+patterns: [ # An array of individual pattern declarations.
+  {
+    match: '\\bWARN\\b'
+    name: 'constant.cloudberry'
+  }
+  {
+    match: '\\b(ERROR|Stack trace|FATAL|ExitStatus(CrashExit)|failed|Error|error|Failed)\\b'
+    name: 'variable.cloudberry'
+  }
+  {
+    match: '\\b(DEBUG)\\b'
+    name: 'string.cloudberry'
+  }
+  {
+    match: '\\b(System.ArgumentException|System.ArgumentNullException|System.ArgumentOutOfRangeException|System.ArithmeticException|System.ConstraintViolation|System.DevideByZeroException|System.DivideByZeroException|System.IndexOutOfRangeException|System.InvalidCastException|System.KeyNotFoundException|System.NullReferenceException|System.OutOfRangeException|System.StackOverflowException|QProcess::ExitStatus(CrashExit)|double free or corruption)\\b'
+    name: 'keyword.cloudberry'
+  }
+  {
+    match: '\\bSuccess\\b'
+    name: 'string.regexp.cloudberry'
+  }
+]
+repository: # An array of rules. If you're going to be referencing one bit of code over and over again, stick it here so that you can edit all in one place.
+  ruleName: # Can be anything.
+    {
+      name: ''
+      match: ''
+      end: ''
+      endCaptures:
+        0:
+          name: ''
+    }
