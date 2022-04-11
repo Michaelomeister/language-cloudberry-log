@@ -40,7 +40,7 @@ patterns: [ # An array of individual pattern declarations.
     name: 'variable.cloudberry'
   }
   {
-    match: '\\b(DEBUG)\\b'
+    match: '\\b(DEBUG|INFO)\\b'
     name: 'string.cloudberry'
   }
   {
